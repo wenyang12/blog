@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "个人博客项目",
+  "main": "index.js",
+  "scripts": {
+      "start":"node app.js",
+      "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookies": "^0.6.2",
+    "express": "^4.14.1",
+    "markdown": "^0.5.0",
+    "mongoose": "^4.8.3",
+    "swig": "^1.4.2"
+  }
+}
