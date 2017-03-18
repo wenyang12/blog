@@ -12,3 +12,12 @@ views   | 模块视图文件目录
 app.js  |入口文件
 
 # 启动方式
+
+```bash
+netstat -apn | grep 4040  
+
+netstat -tpln
+# 查看端口
+
+可以使用命令“node ~/example.js &”将项目置于后台运行。
+```
