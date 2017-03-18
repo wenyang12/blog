@@ -82,6 +82,8 @@ mongoose.connect('mongodb://localhost:12345/blog',function(err){
         //监听http请求
         //部署网络的时候加上下面那行再运行
         //const hostname = '0.0.0.0';
-        app.listen(8081);
+        app.listen(8081,function(arg){
+            console.log('listen>> localhost:8081');
+        });
     }
 });

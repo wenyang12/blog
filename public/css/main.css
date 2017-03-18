@@ -133,23 +133,29 @@ header .backimg {
   width: 100%;
   height: 100%;
 }
-header .backimg img {
+header .backimg .bdimg {
   margin: auto;
   display: block;
+background-size: cover;
+width: 100%;
+height: 100%;
 }
 header .logo {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 5;
-  text-align: center;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    z-index: 5;
+    text-align: center;
+    opacity: 0.7;
 }
 header .logo span {
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #f6594d;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px rgba(126, 122, 114, 0.5);
 }
 header .logo img {
   display: inline-block;
@@ -170,10 +176,15 @@ nav .menu a {
   height: 56px;
   line-height: 56px;
   text-decoration: none;
+  font-size: 16px;
+  color: #ffa944;
 }
 nav .menu a:hover, nav .menu a.focus {
   margin-bottom: -2px;
   border-bottom: 2px solid #e67e22;
+  color: coral;
+  font-weight: bold;
+    font-size: 16px;
 }
 main {
   width: 1140px;
@@ -409,4 +420,7 @@ footer .fotBox span {
   line-height: 79px;
   border-top: 1px solid #303030;
   color: #555;
+}
+.container-fluid{
+    margin-bottom: 20px;
 }
